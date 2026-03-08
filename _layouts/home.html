@@ -1,0 +1,65 @@
+---
+layout: default
+---
+
+{% if site.posts.size > 0 %}
+  <!-- If there are posts, show the default post list -->
+  <div id="post-list" class="flex-grow-1 px-xl-1">
+    {% for post in paginator.posts %}
+      <article class="card-wrapper card">
+        <a href="{{ post.url | relative_url }}" class="post-preview row g-0 flex-md-row-reverse">
+          {% if post.image %}
+            {% if post.image.path %}
+              {% assign src = post.image.path %}
+            {% else %}
+              {% assign src = post.image %}
+            {% endif %}
+            <div class="col-md-5">
+              <img src="{{ src }}" loading="lazy" alt="{{ post.image.alt | default: post.title }}" class="img-fluid rounded-end">
+            </div>
+          {% endif %}
+          <div class="col-md-{% if post.image %}7{% else %}12{% endif %}">
+            <div class="card-body d-flex flex-column">
+              <h1 class="card-title my-2 mt-md-0">{{ post.title }}</h1>
+              <div class="card-text content mt-0 mb-3">
+                <p>{{ post.content | markdownify | strip_html | truncate: 200 }}</p>
+              </div>
+              <div class="post-meta flex-grow-1 d-flex align-items-end">
+                <div class="me-auto">
+                  <i class="far fa-calendar fa-fw me-1"></i>
+                  {% include datetime.html date=post.date locale=lang %}
+                </div>
+              </div>
+            </div>
+          </div>
+        </a>
+      </article>
+    {% endfor %}
+  </div>
+
+{% else %}
+  <!-- Hero landing page when no posts exist -->
+  <div class="hero-landing">
+    <div class="hero-content">
+      <h1 class="hero-title">Seoyeon Park</h1>
+      <p class="hero-subtitle">AI Software Engineer</p>
+      <p class="hero-description">
+        Building AI agentic systems and orchestration pipelines that automate complex workflows with production-grade reliability.
+      </p>
+      <div class="hero-cta">
+        <a href="{{ '/about/' | relative_url }}" class="hero-btn primary">
+          <i class="fas fa-user"></i> About Me
+        </a>
+        <a href="{{ '/projects/' | relative_url }}" class="hero-btn">
+          <i class="fas fa-project-diagram"></i> Projects
+        </a>
+        <a href="{{ '/experience/' | relative_url }}" class="hero-btn">
+          <i class="fas fa-briefcase"></i> Experience
+        </a>
+        <a href="{{ '/skills/' | relative_url }}" class="hero-btn">
+          <i class="fas fa-code"></i> Skills
+        </a>
+      </div>
+    </div>
+  </div>
+{% endif %}
