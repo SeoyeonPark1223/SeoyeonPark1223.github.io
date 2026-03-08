@@ -1,6 +1,13 @@
 ---
 ---
 
+/* prettier-ignore */
+@use 'main
+{%- if jekyll.environment == "production" -%}
+  .bundle
+{%- endif -%}
+';
+
 /* ==========================================================================
    Custom Styles for Seoyeon Park Portfolio
    Uses Chirpy theme CSS variables for automatic dark/light mode support
