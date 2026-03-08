@@ -27,4 +27,4 @@ _sass/vendors
 assets/js/dist
 
 .DS_Store
-.vscode
+.ruby-version

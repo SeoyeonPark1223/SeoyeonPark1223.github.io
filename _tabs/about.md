@@ -25,27 +25,27 @@ Hi, I'm **Seoyeon Park**, an AI Software Engineer.
 <div class="contact-grid">
 
 <div class="contact-card">
-  <i class="fas fa-envelope"></i>
-  <div>
-    <strong>Email</strong><br>
-    <a href="mailto:trispark1223@gmail.com">trispark1223@gmail.com</a>
-  </div>
+<i class="fas fa-envelope"></i>
+<div>
+<strong>Email</strong><br>
+<a href="mailto:trispark1223@gmail.com">trispark1223@gmail.com</a>
+</div>
 </div>
 
 <div class="contact-card">
-  <i class="fab fa-github"></i>
-  <div>
-    <strong>GitHub</strong><br>
-    <a href="https://github.com/SeoyeonPark1223" target="_blank">SeoyeonPark1223</a>
-  </div>
+<i class="fab fa-github"></i>
+<div>
+<strong>GitHub</strong><br>
+<a href="https://github.com/SeoyeonPark1223" target="_blank">SeoyeonPark1223</a>
+</div>
 </div>
 
 <div class="contact-card">
-  <i class="fab fa-linkedin"></i>
-  <div>
-    <strong>LinkedIn</strong><br>
-    <a href="https://www.linkedin.com/in/seoyeon-park-tris1223" target="_blank">seoyeon-park-tris1223</a>
-  </div>
+<i class="fab fa-linkedin"></i>
+<div>
+<strong>LinkedIn</strong><br>
+<a href="https://www.linkedin.com/in/seoyeon-park-tris1223" target="_blank">seoyeon-park-tris1223</a>
+</div>
 </div>
 
 </div>

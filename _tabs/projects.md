@@ -9,20 +9,20 @@ order: 4
 <details>
 <summary>
 <div class="project-header">
-  <h3>Doc-Orchestrator</h3>
-  <p class="project-tagline">AI-powered document orchestration agent for high-ROI workflows</p>
-  <div class="project-meta">
-    <span><i class="fas fa-calendar-alt"></i> Feb 2026</span>
-    <span><i class="fas fa-users"></i> Team (3) — AX Mission at Nota AI</span>
-    <span><i class="fas fa-user-tag"></i> Planning, Architecture, Development (85%)</span>
-  </div>
-  <div class="project-tags">
-    <span class="project-tag">Python</span>
-    <span class="project-tag">MCP</span>
-    <span class="project-tag">Claude Code</span>
-    <span class="project-tag">Confluence REST API</span>
-    <span class="project-tag">GPT-4o Transcribe</span>
-  </div>
+<h3>Doc-Orchestrator</h3>
+<p class="project-tagline">AI-powered document orchestration agent for high-ROI workflows</p>
+<div class="project-meta">
+<span><i class="fas fa-calendar-alt"></i> Feb 2026</span>
+<span><i class="fas fa-users"></i> Team (3) — AX Mission at Nota AI</span>
+<span><i class="fas fa-user-tag"></i> Planning, Architecture, Development (85%)</span>
+</div>
+<div class="project-tags">
+<span class="project-tag">Python</span>
+<span class="project-tag">MCP</span>
+<span class="project-tag">Claude Code</span>
+<span class="project-tag">Confluence REST API</span>
+<span class="project-tag">GPT-4o Transcribe</span>
+</div>
 </div>
 </summary>
 
@@ -31,7 +31,7 @@ order: 4
 A Claude Code skill that ingests meeting transcripts (audio/text), classifies content via dual classifiers, routes analysis to domain-specialized AI agents, and automatically updates Confluence documentation with safe section-level patching.
 
 <div class="project-image">
-  <img src="/assets/img/projects/doc-orchestrator-architecture.png" alt="Doc-Orchestrator Architecture" loading="lazy">
+<img src="/assets/img/projects/doc-orchestrator-architecture.png" alt="Doc-Orchestrator Architecture" loading="lazy">
 </div>
 
 #### Problem Solving 1 — Safe Section-Level Patching
@@ -55,7 +55,7 @@ A Claude Code skill that ingests meeting transcripts (audio/text), classifies co
 - Implemented dual classifier system (Topic × Part) for intelligent content routing
 
 <div class="project-links">
-  <a href="https://github.com/nota-github/DOC-ORCHESTRATOR" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+<a href="https://github.com/nota-github/DOC-ORCHESTRATOR" target="_blank"><i class="fab fa-github"></i> GitHub</a>
 </div>
 
 </div>
@@ -66,25 +66,25 @@ A Claude Code skill that ingests meeting transcripts (audio/text), classifies co
 <details>
 <summary>
 <div class="project-header">
-  <h3>Gills Dream</h3>
-  <p class="project-tagline">AI-powered travel planner for MZ generation</p>
-  <div class="project-meta">
-    <span><i class="fas fa-calendar-alt"></i> Feb 2025 — Nov 2025</span>
-    <span><i class="fas fa-users"></i> Team (3) — Graduation Project</span>
-    <span><i class="fas fa-user-tag"></i> AI Lead & Backend Developer (33%)</span>
-  </div>
-  <div class="project-tags">
-    <span class="project-tag">Java</span>
-    <span class="project-tag">Spring</span>
-    <span class="project-tag">MySQL</span>
-    <span class="project-tag">Docker</span>
-    <span class="project-tag">Redis</span>
-    <span class="project-tag">AWS</span>
-    <span class="project-tag">FastAPI</span>
-    <span class="project-tag">OpenCV</span>
-    <span class="project-tag">OCR</span>
-    <span class="project-tag">RunPod GPU</span>
-  </div>
+<h3>Gills Dream</h3>
+<p class="project-tagline">AI-powered travel planner for MZ generation</p>
+<div class="project-meta">
+<span><i class="fas fa-calendar-alt"></i> Feb 2025 — Nov 2025</span>
+<span><i class="fas fa-users"></i> Team (3) — Graduation Project</span>
+<span><i class="fas fa-user-tag"></i> AI Lead & Backend Developer (33%)</span>
+</div>
+<div class="project-tags">
+<span class="project-tag">Java</span>
+<span class="project-tag">Spring</span>
+<span class="project-tag">MySQL</span>
+<span class="project-tag">Docker</span>
+<span class="project-tag">Redis</span>
+<span class="project-tag">AWS</span>
+<span class="project-tag">FastAPI</span>
+<span class="project-tag">OpenCV</span>
+<span class="project-tag">OCR</span>
+<span class="project-tag">RunPod GPU</span>
+</div>
 </div>
 </summary>
 
@@ -93,8 +93,8 @@ A Claude Code skill that ingests meeting transcripts (audio/text), classifies co
 Users input YouTube Shorts URL + preferences → Video OCR analysis → Personalized itineraries with optimal routes via Map APIs.
 
 <div class="project-image-row">
-  <img src="/assets/img/projects/gills-dream-profile.png" alt="Gills Dream App" loading="lazy">
-  <img src="/assets/img/projects/gills-dream-architecture.png" alt="Gills Dream Architecture" loading="lazy">
+<img src="/assets/img/projects/gills-dream-profile.png" alt="Gills Dream App" loading="lazy">
+<img src="/assets/img/projects/gills-dream-architecture.png" alt="Gills Dream Architecture" loading="lazy">
 </div>
 
 #### Problem Solving 1 — RunPod Serverless GPU
@@ -118,8 +118,8 @@ Users input YouTube Shorts URL + preferences → Video OCR analysis → Personal
 - Built OCR pipeline: YouTube Shorts frame extraction → text recognition
 
 <div class="project-links">
-  <a href="https://github.com/GILLs-Dream" target="_blank"><i class="fab fa-github"></i> GitHub</a>
-  <a href="https://apps.apple.com/kr/app/%EA%B8%B8%EB%8F%99%EC%9D%B4%EC%9D%98-%EA%BF%88/id6752535603?l=en-GB" target="_blank"><i class="fas fa-mobile-alt"></i> App Store</a>
+<a href="https://github.com/GILLs-Dream" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+<a href="https://apps.apple.com/kr/app/%EA%B8%B8%EB%8D%94%EC%9D%B4%EC%9D%98-%EA%BF%88/id6752535603?l=en-GB" target="_blank"><i class="fas fa-mobile-alt"></i> App Store</a>
 </div>
 
 </div>
@@ -130,23 +130,23 @@ Users input YouTube Shorts URL + preferences → Video OCR analysis → Personal
 <details>
 <summary>
 <div class="project-header">
-  <h3>INFLUY</h3>
-  <p class="project-tagline">Personal select store for influencer sellers</p>
-  <div class="project-meta">
-    <span><i class="fas fa-calendar-alt"></i> May 2025 — Oct 2025</span>
-    <span><i class="fas fa-users"></i> Team (10) — CEOS IT Startup Club</span>
-    <span><i class="fas fa-user-tag"></i> Backend Lead (20%)</span>
-  </div>
-  <div class="project-tags">
-    <span class="project-tag">Java</span>
-    <span class="project-tag">Spring</span>
-    <span class="project-tag">MySQL</span>
-    <span class="project-tag">Docker</span>
-    <span class="project-tag">Redis</span>
-    <span class="project-tag">AWS</span>
-    <span class="project-tag">Grafana</span>
-    <span class="project-tag">Prometheus</span>
-  </div>
+<h3>INFLUY</h3>
+<p class="project-tagline">Personal select store for influencer sellers</p>
+<div class="project-meta">
+<span><i class="fas fa-calendar-alt"></i> May 2025 — Oct 2025</span>
+<span><i class="fas fa-users"></i> Team (10) — CEOS IT Startup Club</span>
+<span><i class="fas fa-user-tag"></i> Backend Lead (20%)</span>
+</div>
+<div class="project-tags">
+<span class="project-tag">Java</span>
+<span class="project-tag">Spring</span>
+<span class="project-tag">MySQL</span>
+<span class="project-tag">Docker</span>
+<span class="project-tag">Redis</span>
+<span class="project-tag">AWS</span>
+<span class="project-tag">Grafana</span>
+<span class="project-tag">Prometheus</span>
+</div>
 </div>
 </summary>
 
@@ -155,8 +155,8 @@ Users input YouTube Shorts URL + preferences → Video OCR analysis → Personal
 AI-powered TalkBox for automated customer inquiry classification and product Q&A — addressing Instagram-based commerce challenges.
 
 <div class="project-image-row">
-  <img src="/assets/img/projects/influy-profile.png" alt="INFLUY App" loading="lazy">
-  <img src="/assets/img/projects/influy-architecture.png" alt="INFLUY Architecture" loading="lazy">
+<img src="/assets/img/projects/influy-profile.png" alt="INFLUY App" loading="lazy">
+<img src="/assets/img/projects/influy-architecture.png" alt="INFLUY Architecture" loading="lazy">
 </div>
 
 #### Problem Solving — Transaction Optimization
@@ -175,7 +175,7 @@ AI-powered TalkBox for automated customer inquiry classification and product Q&A
 - **Selected for Promising Student Start-up Team 300+ (Growth Track A)**
 
 <div class="project-links">
-  <a href="https://github.com/INFLUY/Influy-BE" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+<a href="https://github.com/INFLUY/Influy-BE" target="_blank"><i class="fab fa-github"></i> GitHub</a>
 </div>
 
 </div>
@@ -186,22 +186,22 @@ AI-powered TalkBox for automated customer inquiry classification and product Q&A
 <details>
 <summary>
 <div class="project-header">
-  <h3>Silver Assistant</h3>
-  <p class="project-tagline">Multimodal real-time emergency detection system</p>
-  <div class="project-meta">
-    <span><i class="fas fa-calendar-alt"></i> Oct 2024 — Dec 2024</span>
-    <span><i class="fas fa-users"></i> Team (4) — NIPA-Google ML Bootcamp</span>
-    <span><i class="fas fa-user-tag"></i> Planning, Model Dev, Backend (40%)</span>
-    <span><i class="fas fa-trophy"></i> 3rd Place</span>
-  </div>
-  <div class="project-tags">
-    <span class="project-tag">FastAPI</span>
-    <span class="project-tag">Python</span>
-    <span class="project-tag">TensorFlow</span>
-    <span class="project-tag">YOLO</span>
-    <span class="project-tag">OpenCV</span>
-    <span class="project-tag">Transformer</span>
-  </div>
+<h3>Silver Assistant</h3>
+<p class="project-tagline">Multimodal real-time emergency detection system</p>
+<div class="project-meta">
+<span><i class="fas fa-calendar-alt"></i> Oct 2024 — Dec 2024</span>
+<span><i class="fas fa-users"></i> Team (4) — NIPA-Google ML Bootcamp</span>
+<span><i class="fas fa-user-tag"></i> Planning, Model Dev, Backend (40%)</span>
+<span><i class="fas fa-trophy"></i> 3rd Place</span>
+</div>
+<div class="project-tags">
+<span class="project-tag">FastAPI</span>
+<span class="project-tag">Python</span>
+<span class="project-tag">TensorFlow</span>
+<span class="project-tag">YOLO</span>
+<span class="project-tag">OpenCV</span>
+<span class="project-tag">Transformer</span>
+</div>
 </div>
 </summary>
 
@@ -210,8 +210,8 @@ AI-powered TalkBox for automated customer inquiry classification and product Q&A
 AI-powered elderly safety service — uses audio-only anomaly detection and activates the camera only when a risk event (falls, violence) is detected, then performs multimodal analysis to respond.
 
 <div class="project-image-row">
-  <img src="/assets/img/projects/silver-assistant-flow.png" alt="Silver Assistant Service Flow" loading="lazy">
-  <img src="/assets/img/projects/silver-assistant-architecture.png" alt="Silver Assistant Architecture" loading="lazy">
+<img src="/assets/img/projects/silver-assistant-flow.png" alt="Silver Assistant Service Flow" loading="lazy">
+<img src="/assets/img/projects/silver-assistant-architecture.png" alt="Silver Assistant Architecture" loading="lazy">
 </div>
 
 #### Problem Solving — False Positive Resolution
@@ -236,22 +236,22 @@ AI-powered elderly safety service — uses audio-only anomaly detection and acti
 <details>
 <summary>
 <div class="project-header">
-  <h3>Meme Sphere</h3>
-  <p class="project-tagline">Comprehensive meme coin platform with community features</p>
-  <div class="project-meta">
-    <span><i class="fas fa-calendar-alt"></i> Jan 2025 — Feb 2025</span>
-    <span><i class="fas fa-users"></i> Team (13) — UMC 7th Cohort</span>
-    <span><i class="fas fa-user-tag"></i> Backend Developer (10%)</span>
-    <span><i class="fas fa-trophy"></i> Grand Prize (1st / 69 teams)</span>
-  </div>
-  <div class="project-tags">
-    <span class="project-tag">Java</span>
-    <span class="project-tag">Spring</span>
-    <span class="project-tag">MySQL</span>
-    <span class="project-tag">Docker</span>
-    <span class="project-tag">Redis</span>
-    <span class="project-tag">AWS</span>
-  </div>
+<h3>Meme Sphere</h3>
+<p class="project-tagline">Comprehensive meme coin platform with community features</p>
+<div class="project-meta">
+<span><i class="fas fa-calendar-alt"></i> Jan 2025 — Feb 2025</span>
+<span><i class="fas fa-users"></i> Team (13) — UMC 7th Cohort</span>
+<span><i class="fas fa-user-tag"></i> Backend Developer (10%)</span>
+<span><i class="fas fa-trophy"></i> Grand Prize (1st / 69 teams)</span>
+</div>
+<div class="project-tags">
+<span class="project-tag">Java</span>
+<span class="project-tag">Spring</span>
+<span class="project-tag">MySQL</span>
+<span class="project-tag">Docker</span>
+<span class="project-tag">Redis</span>
+<span class="project-tag">AWS</span>
+</div>
 </div>
 </summary>
 
@@ -273,7 +273,7 @@ Real-time meme coin price tracking via Binance API, community, dashboard, search
 - Applied Soft-Delete for favorites and search features
 
 <div class="project-links">
-  <a href="https://github.com/TeamMemeSphere/Backend-MemeSphere" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+<a href="https://github.com/TeamMemeSphere/Backend-MemeSphere" target="_blank"><i class="fab fa-github"></i> GitHub</a>
 </div>
 
 </div>
