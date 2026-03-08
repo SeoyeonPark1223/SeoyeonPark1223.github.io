@@ -177,6 +177,8 @@
 
 .experience-section {
   max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .experience-meta {
@@ -295,6 +297,9 @@
   display: flex;
   flex-direction: column;
   gap: 1.25rem;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .project-card {
@@ -422,6 +427,8 @@
 
 .education-section {
   max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .edu-card {
@@ -611,15 +618,15 @@
 }
 
 .project-image-row {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   gap: 1rem;
   margin: 1.25rem 0;
+  align-items: start;
 }
 
 .project-image-row img {
-  flex: 1;
-  min-width: 0;
-  max-width: 50%;
+  width: 100%;
   height: auto;
   border-radius: 8px;
   border: 1px solid var(--card-border-color, rgba(128, 128, 128, 0.15));
@@ -680,10 +687,6 @@
   }
 
   .project-image-row {
-    flex-direction: column;
-  }
-
-  .project-image-row img {
-    max-width: 100%;
+    grid-template-columns: 1fr;
   }
 }

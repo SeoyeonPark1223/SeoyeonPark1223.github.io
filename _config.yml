@@ -150,6 +150,7 @@ baseurl: ""
 kramdown:
   footnote_backlink: "&#8617;&#xfe0e;"
   syntax_highlighter: rouge
+  parse_block_html: true
   syntax_highlighter_opts: # Rouge Options › https://github.com/jneen/rouge#full-options
     css_class: highlight
     # default_lang: console
