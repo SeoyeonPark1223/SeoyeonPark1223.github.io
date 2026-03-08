@@ -30,6 +30,10 @@ order: 4
 
 A Claude Code skill that ingests meeting transcripts (audio/text), classifies content via dual classifiers, routes analysis to domain-specialized AI agents, and automatically updates Confluence documentation with safe section-level patching.
 
+<div class="project-image">
+  <img src="/assets/img/projects/doc-orchestrator-architecture.png" alt="Doc-Orchestrator Architecture" loading="lazy">
+</div>
+
 #### Problem Solving 1 — Safe Section-Level Patching
 
 - **Problem:** Confluence pages contain complex XML structures — full-page replacement via API destroys Jira macros, smart links, and collaborative metadata
@@ -88,6 +92,11 @@ A Claude Code skill that ingests meeting transcripts (audio/text), classifies co
 
 Users input YouTube Shorts URL + preferences → Video OCR analysis → Personalized itineraries with optimal routes via Map APIs.
 
+<div class="project-image-row">
+  <img src="/assets/img/projects/gills-dream-profile.png" alt="Gills Dream App" loading="lazy">
+  <img src="/assets/img/projects/gills-dream-architecture.png" alt="Gills Dream Architecture" loading="lazy">
+</div>
+
 #### Problem Solving 1 — RunPod Serverless GPU
 
 - **Problem:** OCR pipeline requires GPU compute, but usage is on-demand — persistent GPU instances waste resources
@@ -145,6 +154,11 @@ Users input YouTube Shorts URL + preferences → Video OCR analysis → Personal
 
 AI-powered TalkBox for automated customer inquiry classification and product Q&A — addressing Instagram-based commerce challenges.
 
+<div class="project-image-row">
+  <img src="/assets/img/projects/influy-profile.png" alt="INFLUY App" loading="lazy">
+  <img src="/assets/img/projects/influy-architecture.png" alt="INFLUY Architecture" loading="lazy">
+</div>
+
 #### Problem Solving — Transaction Optimization
 
 - **Problem:** LLM API-generated categories immediately saved to DB, then re-fetched by frontend — synchronous flow caused bottleneck
@@ -194,6 +208,11 @@ AI-powered TalkBox for automated customer inquiry classification and product Q&A
 <div class="project-details">
 
 AI-powered elderly safety service — uses audio-only anomaly detection and activates the camera only when a risk event (falls, violence) is detected, then performs multimodal analysis to respond.
+
+<div class="project-image-row">
+  <img src="/assets/img/projects/silver-assistant-flow.png" alt="Silver Assistant Service Flow" loading="lazy">
+  <img src="/assets/img/projects/silver-assistant-architecture.png" alt="Silver Assistant Architecture" loading="lazy">
+</div>
 
 #### Problem Solving — False Positive Resolution
 

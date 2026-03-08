@@ -25,6 +25,10 @@ Building and evolving testing systems from manual validation to a self-serve pla
 
 ### Infrastructure Evolution
 
+<div class="project-image">
+  <img src="/assets/img/projects/nota-test-progress.png" alt="Nota AI Test Infrastructure Evolution" loading="lazy">
+</div>
+
 <div class="timeline">
 
 <div class="timeline-item active">
